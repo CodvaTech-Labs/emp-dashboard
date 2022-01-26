@@ -42,20 +42,22 @@
   
   
   <dependencies>
-  <dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>javax.servlet</artifactId>
-    <version>3.0.0.v201112011016</version>
+<dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>3.0.1</version>
+        <scope>provided</scope>
 </dependency>
+
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
     <version>8.0.13</version>
 </dependency>
 <dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>jsp-api</artifactId>
-    <version>2.2</version>
+    <groupId>javax.servlet.jsp</groupId>
+    <artifactId>javax.servlet.jsp-api</artifactId>
+    <version>2.3.1</version>
 </dependency>
 <dependency>
     <groupId>javax.servlet</groupId>
@@ -68,8 +70,7 @@
     <version>2.5</version>
 </dependency>
 </dependencies>
-  
-  <distributionManagement>
+<distributionManagement>
     <repository>
         <id>central</id>
         <name>a0pmskevvca33-artifactory-primary-0-releases</name>
@@ -81,5 +82,4 @@
         <url>https://devops2022.jfrog.io/artifactory/default-maven-virtual</url>
     </snapshotRepository>
 </distributionManagement>
-  
 </project>
